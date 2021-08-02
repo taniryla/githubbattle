@@ -1,5 +1,7 @@
+//Modules
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './index.css';
 
 // Component
     //(1) State that it manages
@@ -10,7 +12,7 @@ class App extends React.Component {
     render() {
         return (
         <div>
-            Hello World!
+            Hello Ryland!
             </div>
         )
     }
@@ -21,3 +23,5 @@ ReactDOM.render(
     //Where to render the Element to
     <App />, document.getElementById('app')
     )
+
+export default App;
